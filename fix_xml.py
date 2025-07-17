@@ -57,6 +57,7 @@ class Fixer(BeautifulSoup):
 
 
 if __name__ == '__main__':
+    """need to use"""
     try:
         fix_xml(*sys.argv[1:])
     except TypeError:
